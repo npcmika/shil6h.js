@@ -9,7 +9,7 @@ const { prefix } = require('./config.json');
 
 
 client.once('ready', () => {
-  console.log('Ready! Made by Shiloh#0001');
+  console.log('Ready! Made by Shiloh#0001'); // Don't change that, please?
   client.user.setActivity(`s!help`, {
     type: 'WATCHING'
   });
@@ -19,9 +19,9 @@ client.on("message", async message => {
     if (message.content === 'hi') {
         message.channel.send('yoo');
     } else if (message.content === 'cutie') {
-        message.channel.send('<@478051668542619670>')
+        message.channel.send('Your discord ID')
     } else if (message.content === 'daddy') {
-        message.channel.send('<@478051668542619670>')
+        message.channel.send('Your discord ID')
     }
 })
 
@@ -90,7 +90,7 @@ client.on('message', message => {
         const embed = new Discord.MessageEmbed()
         .setColor('#46edf2')
         .setDescription('**Invite**')
-        .addField("[Click Here For To Invite Shil6h To Your Server](https://discord.com/oauth2/authorize?client_id=830529009829543976&scope=bot&permissions=0) ")
+        .addField() 
         .setFooter(`Requested by ${message.author.tag}`)
         .setTimestamp()
 
