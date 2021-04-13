@@ -15,7 +15,7 @@ client.once('ready', () => {
   });
   
 client.on("message", async message => {
-    const prefix = "$";
+    const prefix = "s!";
     if (message.content === 'hi') {
         message.channel.send('yoo');
     } else if (message.content === 'cutie') {
