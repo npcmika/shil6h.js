@@ -22,4 +22,4 @@ A discord bot that allows you to have to verify via captcha to maintain within t
 # Help 
 Please check the GitHub issues page on this project. I get a lot of similar questions, and it is likely that yours has already been answered.
 
-If you still need help, feel free to add me on discord `pluto#8000`.
+If you still need help, feel free to add me on discord `shiloh#8000`.
