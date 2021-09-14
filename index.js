@@ -9,7 +9,7 @@ const { prefix } = require('./config.json');
 
 client.once('ready', () => {
   console.log('Ready! Made by Shiloh#0001');
-  client.user.setActivity(`s!help | shil6h.com`, {
+  client.user.setActivity(`contact me @ tedy#0003`, {
     type: 'WATCHING'
   });
   
