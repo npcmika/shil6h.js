@@ -102,6 +102,34 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.author.bot) return;
+    else if (message.content === `${prefix}1`) {
+        const embed = new Discord.MessageEmbed()
+        .setColor('#46edf2')
+        .setTitle('**Read This**')
+.setDescription('I just wanna say I have been very inactive and would like you to know that I am not that active anymore but its okay because I still pay for my bot and it is still a on going running bot but that wont stop me from coding!')
+        .setFooter(`Requested by ${message.author.tag}`)
+        .setTimestamp()
+
+        return message.channel.send(embed);
+    }
+})
+
+client.on('message', message => {
+    if(message.author.bot) return;
+    else if (message.content === `${prefix}invite`) {
+        const embed = new Discord.MessageEmbed()
+        .setColor('#46edf2')
+        .setTitle('**Invite**')
+        .setDescription('[Click here for shil6h invite!](https://discord.com/oauth2/authorize?client_id=830529009829543976&scope=bot&permissions=268443714)')
+        .setFooter(`Requested by ${message.author.tag}`)
+        .setTimestamp()
+
+        return message.channel.send(embed);
+    }
+})
+
+client.on('message', message => {
+    if(message.author.bot) return;
     else  if (message.content === `${prefix}setup`) {
         const embed = new Discord.MessageEmbed()
         .setColor('#46edf2')
