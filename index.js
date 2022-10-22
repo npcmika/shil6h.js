@@ -8,8 +8,8 @@ const { prefix } = require('./config.json');
 
 
 client.once('ready', () => {
-  console.log('Ready! Made by Shiloh#0001');
-  client.user.setActivity(`contact me @ tedy#0003`, {
+  console.log('Ready! Made by mika');
+  client.user.setActivity(`contact me @zeattlee on instagram`, {
     type: 'WATCHING'
   });
   
